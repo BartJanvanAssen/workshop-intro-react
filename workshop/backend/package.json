@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "name": "workshop-backend-express-simple",
+  "version": "2.3.2",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "express": "^4.16.4"
+  }
+}

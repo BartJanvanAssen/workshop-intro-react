@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<title>Exercise 1 - JQuery</title>
+
+<p>1. Click me to hide me.</p>
+<p>2. Click me to hide me.</p>
+<p>3. Click me to hide me.</p>
+<p>4. Click me to hide me.</p>
+
+<style>
+  p {
+    background: lightsteelblue;
+    padding: 20px;
+  }
+</style>
+
+<!-- Load jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Use jQuery -->
+<script>
+// Wait for DOM to load and be ready
+$(document).ready(function(){
+
+  // Listen for a click event
+  $( "p" ).click(function() {
+
+    // Hide the current element
+    $( this ).hide();
+  });
+
+});
+</script>
